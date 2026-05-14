@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О проекте — Карты дисциплин</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Карты дисциплин</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="about.html" class="active">О проекте</a></li>
+      <li><a href="members.html">Участники</a></li>
+      <li><a href="journal.html">Журнал</a></li>
+      <li><a href="resources.html">Ресурсы</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>О проекте</h1>
+  <p>Цели, задачи и результаты работы над платформой «Карты дисциплин»</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Актуальность</h2>
+    <p class="section-subtitle">Зачем это нужно</p>
+    <div class="card" style="max-width: 800px;">
+      <p style="font-size: 1.05rem; line-height: 1.8;">
+        Московский политехнический университет реализует десятки образовательных программ. Каждая программа
+        содержит множество дисциплин, для каждой из которых необходимо составить карту — документ,
+        описывающий цели, компетенции, содержание и оценочные средства. Ручное ведение этих документов
+        трудоёмко и приводит к ошибкам при проверке соответствия ФГОС ВО.
+        Платформа «Карты дисциплин» автоматизирует этот процесс.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section style="background: white;">
+  <div class="container">
+    <h2 class="section-title">Цель проекта</h2>
+    <p class="section-subtitle">Разработка и развитие веб-платформы для управления картами дисциплин</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Основная цель</h3>
+        <p>Создать единую цифровую среду для разработки, хранения и актуализации карт дисциплин образовательных программ Московского Политеха.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📐</div>
+        <h3>Соответствие ФГОС</h3>
+        <p>Автоматически проверять корректность учебных планов и карт дисциплин на соответствие требованиям федеральных стандартов.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Эффективность</h3>
+        <p>Сократить трудозатраты методических отделов на разработку и согласование учебной документации.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Задачи</h2>
+    <div style="max-width: 700px;">
+      <div class="timeline-item" style="margin-bottom: 16px; position: relative;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 1.5rem;">1️⃣</span>
+          <div>
+            <strong>Интерфейс редактирования</strong>
+            <p style="color: var(--text-muted); margin-top: 4px;">Разработать удобный UI для создания и редактирования карт дисциплин преподавателями.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" style="margin-bottom: 16px; position: relative;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 1.5rem;">2️⃣</span>
+          <div>
+            <strong>Автопроверка по стандартам</strong>
+            <p style="color: var(--text-muted); margin-top: 4px;">Реализовать механизм проверки соответствия учебных планов актуальной редакции ФГОС ВО.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" style="margin-bottom: 16px; position: relative;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 1.5rem;">3️⃣</span>
+          <div>
+            <strong>Разграничение доступа</strong>
+            <p style="color: var(--text-muted); margin-top: 4px;">Внедрить ролевую модель: преподаватели, методисты, администраторы кафедр и деканатов.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" style="margin-bottom: 16px; position: relative;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 1.5rem;">4️⃣</span>
+          <div>
+            <strong>Экспорт документов</strong>
+            <p style="color: var(--text-muted); margin-top: 4px;">Обеспечить выгрузку карт дисциплин в Excel и PDF для официального документооборота.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" style="position: relative;">
+        <div style="display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 1.5rem;">5️⃣</span>
+          <div>
+            <strong>Мониторинг</strong>
+            <p style="color: var(--text-muted); margin-top: 4px;">Настроить систему мониторинга (Grafana) для отслеживания доступности и производительности платформы.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: white;">
+  <div class="container">
+    <h2 class="section-title">Результаты</h2>
+    <p class="section-subtitle">Что было достигнуто в ходе практики</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Рабочая платформа</h3>
+        <p>Платформа <a href="https://kd.mospolytech.ru/" target="_blank">kd.mospolytech.ru</a> доступна для преподавателей и методистов Московского Политеха.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Чат-бот FitBot</h3>
+        <p>Разработан Telegram-бот на GigaChat LLM для персонального планирования питания — вариативная часть практики.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>Документация</h3>
+        <p>Полный комплект документов: описание проекта, журнал прогресса, отчёт по LLM, техническое руководство.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Проектная практика 2026 · Группа 251-372 · Московский политехнический университет<br>
+  <a href="https://gitverse.ru/mospol/project-practice-2026-BeGoode" target="_blank">Репозиторий на GitVerse</a></p>
+</footer>
+
+</body>
+</html>
