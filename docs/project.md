@@ -40,4 +40,4 @@
 | Мониторинг | Grafana |
 | Документация | Markdown, DOCX |
 | Хранение кода | Git (GitVerse / GitHub) |
-| Коммуникация | Telegram, Discord |
+| Коммуникация | Telegram |
