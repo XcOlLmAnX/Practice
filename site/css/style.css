@@ -273,6 +273,22 @@ section {
 .member-tasks li:last-child { border-bottom: none; }
 .member-tasks li::before { content: "•"; color: var(--primary); flex-shrink: 0; }
 
+.member-contacts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 14px 20px 4px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.member-contacts a {
+  font-size: 0.82rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+.member-contacts a:hover { text-decoration: underline; }
+
 /* Journal */
 .timeline {
   position: relative;
